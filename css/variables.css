@@ -1,0 +1,24 @@
+:root{
+    --assent: #c5a55a;
+--bg-dark: #06080f;
+--text-light: #f8f4ec;
+--text-dark: #06080f;
+--text-50: #faf0dc;
+--assent-opacity-35: #c5a55a;
+--white: #ffffff;
+
+}
+ :root{
+
+--number-h1: 100px;
+--number-h2: 18px;
+--number-h3: 30px;
+--number-h4: 54px;
+--number-h5: 54px;
+--number-h6: 24px;
+--number-p1: 16px;
+--number-p2: 24px;
+--number-deco-64: 64px;
+--number-deco-32: 32px;
+
+}
