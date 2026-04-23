@@ -1,12 +1,13 @@
 :root{
-    --assent: #c5a55a;
+    --assent: #017c75;
+    --assent-light: #02A49B;
 --bg-dark: #06080f;
---text-light: #f8f4ec;
+--text-light: #ebefee;
 --text-dark: #06080f;
---text-50: #faf0dc;
---assent-opacity-35: rgb(197,165,90, 0.85);
---white: #ffffff;
+--hover: #B2FFF7;
 
+--white: #ffffff;
+--grey-600: #353736;
 }
  :root{
 
