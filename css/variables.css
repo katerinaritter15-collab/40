@@ -1,6 +1,7 @@
 :root{
     --assent: #017c75;
     --assent-light: #02A49B;
+    --assent-darck:#01625c;
 --bg-dark: #06080f;
 --text-light: #ebefee;
 --text-dark: #06080f;
@@ -8,6 +9,7 @@
 
 --white: #ffffff;
 --grey-600: #353736;
+--grey-300:  #555857;
 }
  :root{
 
