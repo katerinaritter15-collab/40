@@ -24,6 +24,11 @@ header{
 }
 section{
   scroll-margin-top: 200px;
+  width: 100%;
+}
+li{
+ list-style-type: none;
+ margin: 0;
 }
 .link {
   font-family: "Cormorant Garamond", serif;
@@ -281,8 +286,8 @@ line-height: 1.25rem; /* 66.667% */
   border: 1px solid rgba(255, 255, 255, 0.08);
 
   box-shadow:
-    0 6px 18px rgba(0, 0, 0, 0.25),
-    0 0 12px rgba(255, 255, 255, 0.06);
+    0 6px 18px rgba(0, 0, 0, 0.02),
+    0 0 12px rgba(255, 255, 255, 0.02);
 
   transition:
     box-shadow 0.3s ease,
@@ -642,6 +647,55 @@ align-items: flex-start;
   width: 56px;
   height: 56px;
 }
+.container-contact-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0  3.75rem;
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  row-gap: 0;
+  gap: 1rem;
+}
+.left-el-grid{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  text-align: left;
+  
+}
+
+.contact-p{
+  width: 18rem;
+  text-align: left;
+}
+.right-el-grid{
+  display: grid;
+ 
+}
+ul.contact-ul{
+  display: grid;
+   grid-template-rows: 1fr 1fr 1fr 1fr ;
+grid-template-columns: none;
+}
+.contact-li{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25rem;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  align-items: center;
+}
+.icon-teitel{
+display: flex;
+flex-direction: row;
+gap: 1rem;
+align-items: center;
+}
+.contact-teitel{
+  color: var(--text-dark);
+}
+
+
 /*----------------------------------------------------------------------------------------*/
 
 /* десктоп */
